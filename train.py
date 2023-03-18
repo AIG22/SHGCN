@@ -101,17 +101,17 @@ if __name__ == '__main__':
     parser.add_argument('--seed', type=int, default=2108550661, help='seeds for random splits.')
     parser.add_argument('--epochs', type=int, default=1000, help='max epochs.')
     parser.add_argument('--lr', type=float, default=0.07, help='learning rate.')
-    parser.add_argument('--weight_decay', type=float, default=0.0005, help='weight decay.')
+    parser.add_argument('--weight_decay', type=float, default=0.000005, help='weight decay.')
     parser.add_argument('--early_stopping', type=int, default=200, help='early stopping.')
     parser.add_argument('--hidden', type=int, default=64, help='hidden units.')
-    parser.add_argument('--dim', type=int, default=16, help='hidden units.')
-    parser.add_argument('--dropout', type=float, default=0.6, help='dropout for neural networks.')
+    parser.add_argument('--dim', type=int, default=8, help='hidden units.')
+    parser.add_argument('--dropout', type=float, default=0.8, help='dropout for neural networks.')
 
     parser.add_argument('--train_rate', type=float, default=0.6, help='train set rate.')
     parser.add_argument('--val_rate', type=float, default=0.2, help='val set rate.')
 
     parser.add_argument('--dataset', type=str, choices=['Cora','Citeseer','Pubmed','Computers','Photo','Chameleon','Squirrel','Actor','Texas','Cornell'],
-                        default='Texas')
+                        default='Chameleon')
     parser.add_argument('--device', type=int, default=3, help='GPU device.')
     parser.add_argument('--runs', type=int, default=10, help='number of runs.')
     parser.add_argument('--net', type=str, choices=['SHGCN'], default='SHGCN')
