@@ -7,7 +7,9 @@
 sh run.sh
 ```
 # Dependencies
-> -Python3 <br>
-> -torch-geometric <br>
-> -Pytorch <br>
-> -NumPy<br>
+- Python3 <br>
+- torch-geometric <br>
+- Pytorch <br>
+- NumPy<br>
+# Acknowledgements
+> The demo code is implemented based on: "BernNet: Learning Arbitrary Graph Spectral Filters via Bernstein Approximation".(https://arxiv.org/abs/2106.10994)
