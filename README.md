@@ -6,3 +6,8 @@
 ```sh
 sh run.sh
 ```
+# Dependencies
+> -Python3 <br>
+> -torch-geometric <br>
+> -Pytorch <br>
+> -NumPy<br>
