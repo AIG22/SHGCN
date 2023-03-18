@@ -150,7 +150,7 @@ if __name__ == '__main__':
 
     test_acc_mean, val_acc_mean = np.mean(results, axis=0) * 100
     test_acc_std = np.sqrt(np.var(results, axis=0)[0]) * 100
-    print(f'test acc mean = {test_acc_mean:.4f} ± {test_acc_std * 100:.4f}')
+    print(f'test acc mean = {test_acc_mean:.4f} ± {test_acc_std:.4f}')
 
     values=np.asarray(results)[:,0]
     uncertainty=np.max(np.abs(sns.utils.ci(sns.algorithms.bootstrap(values,func=np.mean,n_boot=1000),95)-values.mean()))
