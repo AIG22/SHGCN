@@ -15,5 +15,5 @@ sh run.sh
 > The demo code is implemented based on: "BernNet: Learning Arbitrary Graph Spectral Filters via Bernstein Approximation".(https://arxiv.org/abs/2106.10994)
 ## performance example
 <p align='center'>
-<img src=''https://github.com/AIG22/SHGCN/blob/main/performance.PNG''/>
+<img src=''https://github.com/AIG22/SHGCN/blob/main/performance.PNG'' />
 </p>
